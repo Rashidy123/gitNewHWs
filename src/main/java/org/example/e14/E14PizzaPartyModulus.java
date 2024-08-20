@@ -2,19 +2,17 @@ package org.example.e14;
 
 public class E14PizzaPartyModulus {
     public static void main(String[] args) {
-        // Declare the int variables and assign values
-        int totalSlices=13;
-        int friends=4;
+        // Step 1: Create variables
+        int totalSlices = 13;
+        int friends = 4;
 
+        // Step 2: Calculate slices per person and leftover slices
+        int slicesPerPerson = totalSlices / friends;
+        int leftoverSlices = totalSlices % friends;
 
-        // Calculate slices per person
-        int slicesPerPerson=(totalSlices/friends);
-        int leftOverSlices=(totalSlices%friends);
-
-
-        // Print the results
-        System.out.println("Each person gets "+slicesPerPerson+" slices.");
-        System.out.println("There are "+leftOverSlices+" slices left over.");
+        // Step 3: Print the results
+        System.out.println("Each person gets " + slicesPerPerson + " slices.");
+        System.out.println("There are " + leftoverSlices + " slices left over.");
 
     }
 }

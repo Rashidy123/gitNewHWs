@@ -1,4 +1,4 @@
-65# Exercise 35: Loan Eligibility Checker
+# Exercise 35: Loan Eligibility Checker
 
 ## Objective
 Learn how to use the `Scanner` class in Java to capture boolean and numerical input from the user and use conditional statements to determine loan eligibility based on credit score.

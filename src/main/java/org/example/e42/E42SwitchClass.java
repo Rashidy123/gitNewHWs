@@ -4,15 +4,12 @@ import java.util.Scanner;
 
 public class E42SwitchClass {
     public static void main(String[] args) {
-        // Create a Scanner object to read input
-        Scanner input=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        // Print prompt for user to enter the day of the week
-        // Capture the day of the week input
         System.out.println("Enter the day of the week (1 for Monday, 2 for Tuesday, ..., 7 for Sunday)");
-        int dayOfWeek=input.nextInt();
-        // Suggest activity using switch statement
-        switch(dayOfWeek){
+        int dayOfWeek = scanner.nextInt();
+
+        switch (dayOfWeek) {
             case 1:
                 System.out.println("Activity: Go to the gym");
                 break;
@@ -36,10 +33,6 @@ public class E42SwitchClass {
                 break;
             default:
                 System.out.println("Invalid day entered");
+                break;
         }
-
-        // Create a Scanner object to read input
-
-
-    }
-}
+    }}

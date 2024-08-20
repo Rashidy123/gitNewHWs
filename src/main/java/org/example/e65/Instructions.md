@@ -1,4 +1,3 @@
-7
 # Exercise 65: Print Series of Numbers in Reverse Using For Loop
 
 ## Objective

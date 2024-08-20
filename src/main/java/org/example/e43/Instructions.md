@@ -1,4 +1,4 @@
--10# Exercise 43: Electricity Bill Calculator
+# Exercise 43: Electricity Bill Calculator
 
 ## Objective
 Learn how to use the `switch` statement in Java to handle multiple conditions based on the user's input, using an integer data type.

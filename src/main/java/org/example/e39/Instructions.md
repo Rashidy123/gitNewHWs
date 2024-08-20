@@ -1,4 +1,4 @@
-85-585# Exercise 39: Grading System
+# Exercise 39: Grading System
 
 ## Objective
 Learn how to use the `Scanner` class in Java to capture numerical input from the user and use conditional statements to determine the corresponding grade based on the marks.

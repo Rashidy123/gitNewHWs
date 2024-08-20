@@ -10,44 +10,46 @@ public class E88ClassAndObject {
         // Declare methods named 'bark()', 'run()', and 'play()' that print messages in the specified format
 
         // Create the first object of the class 'Dog' with breed = "Husky", name = "AnyName", color = "AnyColor"
-        Dog dog=new Dog();
-        dog.breed="Husky";
-        dog.name="AnyName";
-        dog.color="AnyColor";
 
         // Create the second object of the class 'Dog' with breed = "Bulldog", name = "AnyName", color = "AnyColor"
-        Dog dog1=new Dog();
-        dog1.breed="Bulldog";
-        dog1.name="AnyName";
-        dog1.color="AnyColor";
-
 
         // Create the third object of the class 'Dog' with breed = "Labrador", name = "AnyName", color = "AnyColor"
-        Dog dog2=new Dog();
-        dog2.breed="Labrador";
-        dog2.name="AnyName";
-        dog2.color="AnyColor";
-
 
         // Call the methods 'bark()', 'run()', and 'play()' for each object
-        System.out.print(dog.breed+" ");
-        dog.bark();
-        System.out.print(dog.breed+" ");
-        dog.run();
-        System.out.print(dog.breed+" ");
-        dog.play();
-        System.out.print(dog1.breed+" ");
-        dog1.bark();
-        System.out.print(dog1.breed+" ");
-        dog1.run();
-        System.out.print(dog1.breed+" ");
-        dog1.play();
-        System.out.print(dog2.breed+" ");
-        dog2.bark();
-        System.out.print(dog2.breed+" ");
-        dog2.run();
-        System.out.print(dog2.breed+" ");
-        dog2.play();
+// Create the first object of the Dog class
+        Dog husky = new Dog();
+        husky.breed = "Husky";
+        husky.name = "AnyName";
+        husky.color = "AnyColor";
 
+        // Create the second object of the Dog class
+        Dog bulldog = new Dog();
+        bulldog.breed = "Bulldog";
+        bulldog.name = "AnyName";
+        bulldog.color = "AnyColor";
+
+        // Create the third object of the Dog class
+        Dog labrador = new Dog();
+        labrador.breed = "Labrador";
+        labrador.name = "AnyName";
+        labrador.color = "AnyColor";
+
+        // Call methods for the first object
+        husky.bark();
+        husky.run();
+        husky.play();
+
+        // Call methods for the second object
+        bulldog.bark();
+        bulldog.run();
+        bulldog.play();
+
+        // Call methods for the third object
+        labrador.bark();
+        labrador.run();
+        labrador.play();
     }
 }
+
+
+

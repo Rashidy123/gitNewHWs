@@ -7,19 +7,21 @@ public class E86ClassAndObject {
         // Declare a String variable named 'name' and an integer variable named 'roll_no'
 
         // Create an object of the class 'Student'
-        Student str=new Student();
-        str.name="Name is John and roll number is";
-        str.roll_no=2;
 
         // Assign the value "John" to the 'name' variable
 
         // Assign the value 2 to the 'roll_no' variable
 
         // Print the values of 'name' and 'roll_no' in the specified format
-        System.out.println(str.name+" "+str.roll_no);
 
+        // Create an object of the Student class
+        Student student = new Student();
 
+        // Assign values to the object's properties
+        student.name = "John";
+        student.roll_no = 2;
 
-
+        // Print the properties of the object
+        System.out.println("Name is " + student.name + " and roll number is " + student.roll_no);
     }
 }
